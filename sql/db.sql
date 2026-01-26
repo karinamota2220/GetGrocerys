@@ -12,6 +12,6 @@ CREATE TABLE todoList (
 CREATE TABLE grocerys (
     NumberItems SERIAL PRIMARY KEY,
     GroceryItem VARCHAR(200) NOT NULL,
+    Price NUMERIC(10,2)
 
-
-)
+);
